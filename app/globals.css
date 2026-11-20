@@ -1,0 +1,150 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: var(--font-nunito), "Nunito", "Avenir Next", sans-serif;
+  --font-display: var(--font-nunito), "Nunito", "Avenir Next", sans-serif;
+  --font-mono: var(--font-plex), "IBM Plex Mono", ui-monospace, monospace;
+  --color-paper: #ffffff;
+  --color-paper-2: #f4f4f5;
+  --color-card: #ffffff;
+  --color-ink: #111111;
+  --color-ink-soft: #2a2a2a;
+  --color-muted: #3f3f46;
+  --color-line: #e7e7ea;
+  --color-ember: #e1063a;
+  --color-ember-deep: #b0004a;
+  --color-bolt: #5b21e6;
+  --color-sage: #5b21e6;
+  --color-ochre: #e1063a;
+  --color-danger: #be123c;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+html,
+body {
+  overflow-x: hidden;
+  background: #ffffff;
+}
+
+body {
+  color: #111111;
+}
+
+::selection {
+  background: #5b21e6;
+  color: #ffffff;
+}
+
+:focus-visible {
+  outline: 3px solid #5b21e6;
+  outline-offset: 3px;
+}
+
+h1,
+h2,
+.font-display {
+  font-weight: 800;
+  letter-spacing: -0.05em;
+}
+
+.zone-board {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.75rem;
+}
+
+@media (min-width: 768px) {
+  .zone-board {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+
+  .zone-tile {
+    grid-column: var(--col);
+    grid-row: var(--row);
+  }
+}
+
+@keyframes rise {
+  from {
+    opacity: 0;
+    transform: translateY(14px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+@keyframes floaty {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-6px);
+  }
+}
+
+.rise {
+  animation: rise 0.5s ease both;
+}
+
+.rise-delay {
+  animation-delay: 0.1s;
+}
+
+.floaty {
+  animation: floaty 4.5s ease-in-out infinite;
+}
+
+.hero-pop {
+  background: linear-gradient(135deg, #e1063a 0%, #c2187a 48%, #5b21e6 100%);
+  color: #ffffff;
+}
+
+.soft-card {
+  border-radius: 1.75rem;
+  background: #ffffff;
+  box-shadow: 0 12px 32px rgb(17 17 17 / 0.06);
+}
+
+.lift {
+  transition: transform 0.18s ease, box-shadow 0.18s ease;
+}
+
+.lift:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 18px 36px rgb(91 33 230 / 0.16);
+}
+
+.punch {
+  background: linear-gradient(90deg, #e1063a, #5b21e6);
+  color: #ffffff;
+}
+
+.punch:hover {
+  filter: brightness(1.08);
+}
+
+.tab-on {
+  background: linear-gradient(90deg, #e1063a, #5b21e6);
+  color: #ffffff;
+}
+
+@media (display-mode: standalone) {
+  .install-prompt {
+    display: none;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .rise,
+  .floaty,
+  .lift {
+    animation: none;
+    transition: none;
+  }
+}

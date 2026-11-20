@@ -1,0 +1,222 @@
+[
+  {
+    "id": "state-farm",
+    "name": "State Farm",
+    "states": ["*"],
+    "risks": ["fire", "wind"],
+    "wildfireLimitedStates": ["CA"],
+    "quoteUrl": "https://www.statefarm.com/insurance/home-and-property/homeowners",
+    "source": "State Farm public homeowners page",
+    "note": "Writes homeowners in every state. New business in severe wildfire areas is sometimes limited."
+  },
+  {
+    "id": "allstate",
+    "name": "Allstate",
+    "states": ["*"],
+    "risks": ["fire", "wind"],
+    "wildfireLimitedStates": ["CA"],
+    "quoteUrl": "https://www.allstate.com/home-insurance",
+    "source": "Allstate public homeowners page",
+    "note": "National homeowners writer. Availability for new policies varies by wildfire exposure."
+  },
+  {
+    "id": "liberty-mutual",
+    "name": "Liberty Mutual",
+    "states": ["*"],
+    "risks": ["fire", "wind"],
+    "wildfireLimitedStates": ["CA"],
+    "quoteUrl": "https://www.libertymutual.com/home-insurance",
+    "source": "Liberty Mutual public homeowners page",
+    "note": "Broad homeowners writer. Quote starts on their public homeowners page."
+  },
+  {
+    "id": "farmers",
+    "name": "Farmers",
+    "states": ["*"],
+    "risks": ["fire", "wind"],
+    "wildfireLimitedStates": [],
+    "quoteUrl": "https://www.farmers.com/home/",
+    "source": "Farmers public homeowners page",
+    "note": "Writes through Farmers agents in most states, including California."
+  },
+  {
+    "id": "travelers",
+    "name": "Travelers",
+    "states": ["*"],
+    "risks": ["fire", "wind"],
+    "wildfireLimitedStates": ["CA"],
+    "quoteUrl": "https://www.travelers.com/home-insurance",
+    "source": "Travelers public homeowners page",
+    "note": "National writer that has limited new homeowners business in some wildfire zones."
+  },
+  {
+    "id": "nationwide",
+    "name": "Nationwide",
+    "states": ["*"],
+    "risks": ["fire", "wind"],
+    "wildfireLimitedStates": ["CA"],
+    "quoteUrl": "https://www.nationwide.com/personal/insurance/homeowners/",
+    "source": "Nationwide public homeowners page",
+    "note": "Writes in most states. California new business has been restricted."
+  },
+  {
+    "id": "progressive",
+    "name": "Progressive",
+    "states": ["*"],
+    "risks": ["fire", "wind"],
+    "wildfireLimitedStates": [],
+    "quoteUrl": "https://www.progressive.com/homeowners/",
+    "source": "Progressive public homeowners page",
+    "note": "Home quotes are offered directly on Progressive's homeowners page in many states."
+  },
+  {
+    "id": "usaa",
+    "name": "USAA",
+    "states": ["*"],
+    "risks": ["fire", "wind", "flood"],
+    "wildfireLimitedStates": [],
+    "quoteUrl": "https://www.usaa.com/insurance/homeowners/",
+    "source": "USAA public homeowners page",
+    "note": "Eligibility is limited to military members, veterans, and their families."
+  },
+  {
+    "id": "amica",
+    "name": "Amica",
+    "states": ["AZ", "CA", "CO", "CT", "DE", "GA", "ID", "IL", "IN", "IA", "KS", "ME", "MD", "MA", "MI", "MN", "NE", "NV", "NH", "NJ", "NY", "NC", "OH", "OR", "PA", "RI", "TN", "TX", "UT", "VT", "VA", "WA", "WI", "DC"],
+    "risks": ["fire", "wind"],
+    "wildfireLimitedStates": ["CA"],
+    "quoteUrl": "https://www.amica.com/en/products/home-insurance.html",
+    "source": "Amica public homeowners page",
+    "note": "Mutual carrier in a published set of states. Not a fit for a long claims history."
+  },
+  {
+    "id": "erie",
+    "name": "Erie Insurance",
+    "states": ["IL", "IN", "KY", "MD", "NC", "NY", "OH", "PA", "TN", "VA", "WI", "WV", "DC"],
+    "risks": ["fire", "wind"],
+    "wildfireLimitedStates": [],
+    "quoteUrl": "https://www.erieinsurance.com/home-insurance",
+    "source": "Erie public homeowners page",
+    "note": "Writes only in its published footprint of 12 states and Washington, D.C."
+  },
+  {
+    "id": "american-family",
+    "name": "American Family",
+    "states": ["AZ", "CO", "GA", "ID", "IL", "IN", "IA", "KS", "MN", "MO", "NE", "NV", "ND", "OH", "OR", "SD", "UT", "WA", "WI"],
+    "risks": ["fire", "wind"],
+    "wildfireLimitedStates": [],
+    "quoteUrl": "https://www.amfam.com/insurance/home",
+    "source": "American Family public homeowners page",
+    "note": "Writes in its published western and midwestern states. Not California."
+  },
+  {
+    "id": "lemonade",
+    "name": "Lemonade",
+    "states": ["AZ", "CA", "CO", "CT", "GA", "IL", "IN", "IA", "MD", "MA", "MI", "MO", "NV", "NJ", "NY", "OH", "OK", "OR", "PA", "TN", "TX", "VA", "WA", "WI", "DC"],
+    "risks": ["fire", "wind"],
+    "wildfireLimitedStates": ["CA"],
+    "quoteUrl": "https://www.lemonade.com/homeowners",
+    "source": "Lemonade public homeowners page",
+    "note": "Direct online homeowners writer. Wildfire eligibility in California can be limited."
+  },
+  {
+    "id": "hippo",
+    "name": "Hippo",
+    "states": ["AZ", "CA", "CO", "GA", "IL", "MD", "MO", "NV", "OH", "PA", "TN", "TX", "VA"],
+    "risks": ["fire", "wind"],
+    "wildfireLimitedStates": ["CA"],
+    "quoteUrl": "https://www.hippo.com/",
+    "source": "Hippo public homeowners site",
+    "note": "Online home insurer in a published set of states."
+  },
+  {
+    "id": "kin",
+    "name": "Kin",
+    "states": ["AL", "CA", "FL", "LA", "MS", "SC", "TX"],
+    "risks": ["fire", "wind"],
+    "wildfireLimitedStates": [],
+    "quoteUrl": "https://www.kin.com/",
+    "source": "Kin public site",
+    "note": "Focuses on catastrophe-exposed coastal and wildfire states, including Florida and Texas."
+  },
+  {
+    "id": "mercury",
+    "name": "Mercury",
+    "states": ["AZ", "CA", "FL", "GA", "IL", "NJ", "NV", "NY", "OK", "TX", "VA"],
+    "risks": ["fire", "wind"],
+    "wildfireLimitedStates": [],
+    "quoteUrl": "https://www.mercuryinsurance.com/insurance/home/",
+    "source": "Mercury public homeowners page",
+    "note": "Writes homeowners in California and a short list of other states."
+  },
+  {
+    "id": "ca-fair-plan",
+    "name": "California FAIR Plan",
+    "states": ["CA"],
+    "risks": ["fire"],
+    "wildfireLimitedStates": [],
+    "quoteUrl": "https://www.cfpnet.com/",
+    "source": "California FAIR Plan public site",
+    "note": "The California fire residual market. It is basic fire coverage, not a full homeowners package."
+  },
+  {
+    "id": "citizens",
+    "name": "Citizens Property Insurance",
+    "states": ["FL"],
+    "risks": ["wind"],
+    "wildfireLimitedStates": [],
+    "quoteUrl": "https://www.citizensfla.com/",
+    "source": "Citizens public site",
+    "note": "Florida's residual market for people who cannot find wind coverage in the private market."
+  },
+  {
+    "id": "sagesure",
+    "name": "SageSure",
+    "states": ["AL", "FL", "LA", "MS", "NC", "NY", "SC", "TX", "VA"],
+    "risks": ["wind"],
+    "wildfireLimitedStates": [],
+    "quoteUrl": "https://www.sagesure.com/",
+    "source": "SageSure public site",
+    "note": "Coastal wind specialist. Quotes are through appointed agents."
+  },
+  {
+    "id": "neptune",
+    "name": "Neptune Flood",
+    "states": ["*"],
+    "risks": ["flood"],
+    "wildfireLimitedStates": [],
+    "quoteUrl": "https://neptuneflood.com/",
+    "source": "Neptune Flood public site",
+    "note": "Private flood insurer with an online quote. This is flood cover, not a homeowners policy."
+  },
+  {
+    "id": "hartford",
+    "name": "The Hartford",
+    "states": ["*"],
+    "risks": ["fire", "wind"],
+    "wildfireLimitedStates": ["CA"],
+    "quoteUrl": "https://www.thehartford.com/homeowners-insurance",
+    "source": "The Hartford public homeowners page",
+    "note": "Homeowners writer, including the AARP program, with a public quote start."
+  },
+  {
+    "id": "chubb",
+    "name": "Chubb",
+    "states": ["*"],
+    "risks": ["fire", "wind"],
+    "wildfireLimitedStates": ["CA"],
+    "quoteUrl": "https://www.chubb.com/us-en/individuals-families/products/home-insurance.html",
+    "source": "Chubb public homeowners page",
+    "note": "High-value homes. A person gets a quote through a Chubb agent, not an instant bind."
+  },
+  {
+    "id": "bamboo",
+    "name": "Bamboo",
+    "states": ["CA"],
+    "risks": ["fire"],
+    "wildfireLimitedStates": [],
+    "quoteUrl": "https://www.bambooinsurance.com/",
+    "source": "Bamboo public site",
+    "note": "California home insurer built for wildfire-exposed properties."
+  }
+]
